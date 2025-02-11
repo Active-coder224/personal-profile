@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/image_fx_ (2).jpg">
+    <title>Personal-profile</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body{
+            background: #0e0d0d;
+            line-height: 1.6;
+        }
+
+        .container{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .profile-header{
+            text-align: center;
+            padding: 30px 0;
+            background-color: #375037;
+            color: #fff;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        .profile-image{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 2px solid #f0f2f5;
+        }
+        h1{
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        .section{
+            background: #375037;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2{
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+        .skills{
+            list-style: none;
+            padding: 0;
+        }
+        .skills li{
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 5px 15px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+        .social-links{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a{
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: .3s ease;
+        }
+
+        form{
+            /* max-width: 600px; */
+            margin: 0 auto;
+            background-color: #375037;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        button{
+            background-color: #000;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+
+        }
+        .table{
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .table tr{
+            background-color: #141516;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+       
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div class="profile-header">
+            <img src="images/image_fx_.jpg" alt="profile picture" class="profile-image">
+            <h1>Adesanmi Adeola</h1>
+            <p>I'm a Frontend Developer</p>
+        </div>
+
+        <div class="section">
+            <h2>About me.</h2>
+            <p>Hi! I'm a passionate web developer with 1 years of experience in building responsive websites 
+                and web applications. I love working with modern technologies and solving complex problems.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>📧 Email: Adesanmiadeola18@gmail.com</p>
+            <p>📱 Phone: +234 9036-601-906</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/adesanmi-adeola-peter-828626221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Active-coder224" target="_blank">GitHub</a>
+                <a href="https://x.com/Adesanmiadeola3" target="_blank">Twitter</a>
+            </div>
+
+        </div>
+        <div class="form">
+            <form>
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email">
+                <textarea name="text" id="text" cols="20" rows="7" placeholder="Text here"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <table class="table">
+            <tr>
+                <td>Hobby</td>
+                <td>Description</td>
+            </tr>
+
+            <tr>
+                <td>cooking</td>
+                <td>i love cooking while playing a cool music</td>
+            </tr>
+            <tr>
+                <td>photography</td>
+                <td>I love capturing the moment.</td>
+            </tr>
+            <tr>
+                <td>Hiking</td>
+                <td>Exploring national parks on weekends</td>
+            </tr>
+        </table>
+   </div>
+    
+</body>
+</html>
